@@ -60,15 +60,3 @@ print my_abs(8)
 print my_abs(-10)
 
 
-# class
-class Student(object):
-    
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    
-    def print_name(self):
-        print('%s:%s' % (self.name, self.age))
-
-stu_1 = Student('Bob', 18)
-stu_1.print_name()
